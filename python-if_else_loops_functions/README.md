@@ -1,0 +1,1 @@
+A directory for the intranet project: Python - if/else, loops, functions
