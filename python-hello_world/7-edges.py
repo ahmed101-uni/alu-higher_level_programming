@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 word = "Holberton"
-# why does it need to be 8 lines? To give space to use variables. Still not doing it the "intended way", screw you pep8
-first = word[:3]
-last = word[-2:]
-middle = word[1:-1]
+word_first_3 = word[:3]
+word_last_2 = word[-2:]
+middle_word = word[1:-1]
 
-print(f"First 3 letters: {first}")
-print(f"Last 2 letters: {last}")
-print(f"Middle word: {middle}")
-
+print(f"First 3 letters: {word_first_3}")
+print(f"Last 2 letters: {word_last_2}")
+print(f"Middle word: {middle_word}")
