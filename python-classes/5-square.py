@@ -38,16 +38,15 @@ class Square:
         """
         Calculate the area of the square.
         """
-        return self.__size**2
+        return self.__size ** 2
 
     def my_print(self):
         """
-        Prints a square made of '#' characters with the size defined by the instance attribute __size.
+        Prints a square made of '#' characters with the size defined
+        by the instance attribute __size.
         """
         if self.__size == 0:
             print("")
-            return ""
+            return
         for i in range(self.__size):
-            for j in range(self.__size):
-                print("#", end="")
-            print("")
+            print("#" * self.__size)
